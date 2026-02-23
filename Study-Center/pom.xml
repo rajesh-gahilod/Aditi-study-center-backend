@@ -18,7 +18,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Study-Center</name>
 	<description>Study Center Management Project</description>
-
+	<dependency>
+		<groupId>org.postgresql</groupId>
+		<artifactId>postgresql</artifactId>
+	</dependency>
 	<!-- ✅ Java Version -->
 	<properties>
 		<java.version>17</java.version>
